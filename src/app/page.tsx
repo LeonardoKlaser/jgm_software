@@ -85,7 +85,7 @@ function ServicesSection() {
   ]
 
   return (
-    <section className="py-20 bg-gray-100">
+    <section id="services" className="py-20 bg-gray-100">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">Nossos Serviços</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -174,7 +174,7 @@ function HowIHelpSection() {
 
 function AboutMeSection() {
   return (
-    <section className="py-20">
+    <section id="about" className="py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">Sobre Mim</h2>
         <div className="flex flex-col md:flex-row items-center gap-8">
@@ -188,7 +188,7 @@ function AboutMeSection() {
             />
           </div>
           <div className="md:w-2/3">
-            <h3 className="text-2xl font-semibold mb-4">João da Silva</h3>
+            <h3 className="text-2xl font-semibold mb-4">Jair Muller</h3>
             <p className="mb-4">
               Com mais de 10 anos de experiência em TI, sou apaixonado por ajudar empresas a otimizar suas operações
               através de soluções tecnológicas eficientes. Minha expertise abrange desde suporte técnico até
@@ -213,7 +213,7 @@ function ContactSection() {
         <p className="text-xl mb-8">Estou pronto para ajudar com suas necessidades de TI. Entre em contato agora!</p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <a
-            href="https://wa.me/5511999999999"
+            href="https://wa.me/5551996636362"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full inline-flex items-center transition duration-300"

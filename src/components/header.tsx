@@ -10,12 +10,12 @@ export default function Header() {
         <nav>
           <ul className="flex space-x-4">
             <li>
-              <a href="#" className="text-gray-600 hover:text-blue-600">
+              <a href="#services" className="text-gray-600 hover:text-blue-600">
                 Serviços
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 hover:text-blue-600">
+              <a href="#about" className="text-gray-600 hover:text-blue-600">
                 Sobre
               </a>
             </li>
