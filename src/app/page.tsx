@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { Laptop, Printer, BarChart, Clock, CheckCircle } from "lucide-react"
 import Header from "@/components/header"
-import Footer from "@/components/fo"
+import Footer from "@/components/footer"
 
 function HeroSection() {
   return (
